@@ -8,6 +8,7 @@ import (
 var tpl *template.Template
 
 func init() {
+	// read more here https://www.makeuseof.com/go-html-templating/
 	tpl = template.Must(template.ParseGlob("templates/*.html"))
 }
 
